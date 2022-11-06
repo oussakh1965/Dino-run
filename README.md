@@ -2,7 +2,7 @@
 
 This is our project for the coding weeks at CentraleSupélec.
 
-## Membres (Contributeurs):
+## Members (Contributors):
 
 * Mohammed El-Adli
 * Oussama Kharouiche
@@ -13,43 +13,43 @@ This is our project for the coding weeks at CentraleSupélec.
 
 ## Description:
 
-Ce projet est un jeu integré à Google Chrome qui apparait lorsqu'on n'a pas accès à internet.
-Le jeu est programmé à la base du module *pygame* de Python, et a été amélioré en ajoutant un nouveau thème : Noël, et d'autres fonctionnalités.
+This project is a game integrated to Google Chrome that appears when you don't have access to the internet.
+The game is programmed on the basis of the *pygame* library of Python, and has been improved by adding a new theme: Christmas, and other features.
 
-Le but du jeu est de contrôler le dinosaure pour qu'il puisse avancer le plus possible en présence d'obstacles. La difficulté du jeu consiste en la vitesse des obstacles qui augmente en fonction du score.
+The goal of the game is to control the dinosaur so that it can advance as much as possible in the presence of obstacles. The difficulty of the game consists in the speed of the obstacles, which increases according to the score.
 
-## Modules importées:
+## Imported libraries:
   pygame
  
   os
  
   random
 
-## Comment lancer le jeu:
-L'éxecution du module **play.py** permet d'afficher une fenêtre qui permet de choisir le mode souhaité.
+## How to launch the game:
+The execution of the **play.py** module displays a window that allows you to choose the desired mode.
 
-En cliquant (en utilisant la souris) sur le mode choisi, une nouvelle fenêtre apparait. Le jeu commence lorsqu'on appuie sur une touche au clavier.
+By clicking (using the mouse) on the chosen mode, a new window appears. The game starts when a key is pressed on the keyboard.
 
-Le jeu s'arrête lorsque le dinosaure touche un obstacle. Il faut donc appuyer sur une touche au clavier pour se retrouver au menu d'accueil.
-  ## Commandes du jeu:
+The game stops when the dinosaur touches an obstacle. You have to press a key on the keyboard to go back to the home menu.
+  ## Game controls:
        
-       Flèche haut : sauter (le temps d'appui correspond à la hauteur du saut)
-       Flèche bas : baisser
-       Espace : sauter à la plus grande hauteur
-       Echap : quitter le jeu et retourner au menu principal
-**IMPORTANT : Pour que le jeu fonctionne correctement, il faut s'assuer que pygame est bien installé et que le répertoire courant est bien le dossier du projet.**
+       Arrow up: jump (the time the key is pressed corresponds to the height of the jump)
+       Arrow down: go down
+       Space: jump to the highest height
+       Escape: quit the game and return to the main menu
+**IMPORTANT : For the game to work properly, you must make sure that pygame is installed and that the current directory is the project folder.**
 
-## Contribution au jeu:
+## Contribution to the game:
 
-Cette partie est réservée pour celles et ceux qui souhaitent contribuer à l'amélioration du jeu, elle contient donc des détails sur les contenus des autres fichiers Python. Ces fichiers sont dans */gamefiles/modules*.
+This part is reserved for those who want to contribute to the improvement of the game, so it contains details about the contents of other Python files. These files are in */gamefiles/modules*.
 
  * **game.py :**
-  Ce module contient le programme qui permet d'executer le jeu avec prise en charge des themes
+  This module contains the program that allows you to run the game with theme support.
  * **mvp.py :**
-  Ce module est la version MVP du jeu, son éxecution lance directement le mode MVP : le joueur est representé par un bloc jaune et les obstacles par des rectangles rouges.
+  This module is the MVP version of the game, its execution launches directly the MVP mode : the player is represented by a yellow block and the obstacles by red rectangles.
  * **theme_files.py :**
-  Ce module permet de charger les images à partir du dossier assets selon le thème choisi dans le jeu; et contient aussi tous les fonctions permettant d'implementer les themes et les effets visuels.
+  This module allows to load images from the assets folder according to the theme chosen in the game; and also contains all the functions to implement the themes and visual effects.
 
-  Les fichiers sont commentés en détails ce qui permet une compréhension plus facile des fonctions utilisées.
+  The files are commented in detail which allows an easier understanding of the functions used.
 
-Le dossier */gamefiles/assets* contient tous les fichiers images utilisés dans les thèmes, les thèmes sont placés dans des dossiers de même stucture pour faciliter l'importation.
+The folder */gamefiles/assets* contains all the image files used in the themes, the themes are placed in folders of the same structure to facilitate the import.
